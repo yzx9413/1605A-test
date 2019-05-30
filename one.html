@@ -35,7 +35,17 @@
         console.log(opt.tit)
     }
 
-    asyncFn(obj);
+    // asyncFn(obj);
+
+    async function first() {
+        return '看谁先加载'
+    }
+    first().then(result => {
+        console.log(result);
+    })
+
+    first()
+    console.log('那就看看')
 </script>
 
 </html>
