@@ -1,59 +1,59 @@
-GitµÄÈÕ³£²Ù×÷
-¿ËÂ¡²Ö¿â£ºgit clone git@github.com jasonandjay  project.git
-À­È¡´úÂë£ºgit pull origin master
-ĞÂ½¨·ÖÖ§£ºgit branch chenmanjie
-É¾³ı·ÖÖ§£ºgit branch -d chenmanjie
-ÇĞ»»·ÖÖ§£ºgit checkout chenmanjie
-ÍÆËÍÔ¶³Ì£ºgit push origin master
-²é¿´Ìá½»¼ÇÂ¼£ºgit log
-»Ø¹ö´úÂë£ºgit reset --hard [commit£º6]
-»Ø¹öÎÄ¼ş£ºgit checkout - filepath
-»Øµ½×îĞÂ´úÂë£ºgit reset HEAD  git pull origin master
-ºÏ²¢·ÖÖ§£ºgit merge chenmanjie
-»áÓÃPR¸øËûÈË²Ö¿â¹±Ï×´úÂë
-LinuxµÄÈÕ³£²Ù×÷
-ÉÆÓÃ±êÇ©½¡£¬°ïÎÒÃÇ²¹È«ÃüÁîºÍÂ·¾¶
-ÇĞ»»ÎÄ¼ş¼Ğ£ºcd
-²é¿´µ±Ç°Â·¾¶£ºPWD
-²é¿´µ±Ç°ÎÄ¼ş¼ĞÏÂµÄÎÄ¼ş£ºls + ll
-´´½¨ÎÄ¼ş¼ĞÉÏ£ºmkdir
-ÒÆ¶¯ÎÄ¼ş£ºMV
-¸´ÖÆÎÄ¼ş£ºCP
-É¾³ıÎÄ¼ş¼°ÎÄ¼ş¼Ğ£ºrm -rf£¨½ûÖ¹Ê¹ÓÃ£©
-±à¼­ÎÄ¼ş£ºVIM
-²é¿´ÀúÊ·ÃüÁî£ºÀúÊ·
-VUEÏîÄ¿²¿Êğµ½·şÎñÆ÷ÉÏ£¬·şÎñÆ÷Ê¹ÓÃnginxµÄ
-¼òµ¥°æÄ£°åÎª£ºwebpack-simple
-×¢ÊÍµôµÄ.gitignoreÀïµÄDIST£¬¼ÈÔÚDISTÇ°Ãæ¼Ó¸ö££ºÅ
-ĞŞ¸ÄµÄindex.htmlÀïdistbuild.jsÎªÏà¶ÔÂ·¾¶£¬ÔÚ DISTÇ°Ãæ¼Ó¸ö¡£
-ĞŞ¸Äwebpack.config.jsÀïµÄpublickPathÎªÏà¶ÔÂ·¾¶£¬ÔÚ DISTÇ°Ãæ¼Ó¸ö¡£
-¸´ÔÓ°æÄ£°åÎª£ºwebpack
-×¢ÊÍµôµÄ.gitignoreÀïµÄDIST£¬¼ÈÔÚDISTÇ°Ãæ¼Ó¸ö££ºÅ
-ĞŞ¸ÄÅäÖÃ index.jsÀïµÄ¹¹½¨ assetsPublicPathÎªÏà¶ÔÂ·¾¶£¬ÔÚÇ°Ãæ¼Ó¸ö¡£
-Óöµ½404£¬ĞŞ¸ÄÎÄ¼ş¼ĞµÄÈ¨ÏŞ
+Gitçš„æ—¥å¸¸æ“ä½œ
+å…‹éš†ä»“åº“ï¼šgit clone git@github.com jasonandjay  project.git
+æ‹‰å–ä»£ç ï¼šgit pull origin master
+æ–°å»ºåˆ†æ”¯ï¼šgit branch chenmanjie
+åˆ é™¤åˆ†æ”¯ï¼šgit branch -d chenmanjie
+åˆ‡æ¢åˆ†æ”¯ï¼šgit checkout chenmanjie
+æ¨é€è¿œç¨‹ï¼šgit push origin master
+æŸ¥çœ‹æäº¤è®°å½•ï¼šgit log
+å›æ»šä»£ç ï¼šgit reset --hard [commitï¼š6]
+å›æ»šæ–‡ä»¶ï¼šgit checkout - filepath
+å›åˆ°æœ€æ–°ä»£ç ï¼šgit reset HEAD  git pull origin master
+åˆå¹¶åˆ†æ”¯ï¼šgit merge chenmanjie
+ä¼šç”¨PRç»™ä»–äººä»“åº“è´¡çŒ®ä»£ç 
+Linuxçš„æ—¥å¸¸æ“ä½œ
+å–„ç”¨æ ‡ç­¾å¥ï¼Œå¸®æˆ‘ä»¬è¡¥å…¨å‘½ä»¤å’Œè·¯å¾„
+åˆ‡æ¢æ–‡ä»¶å¤¹ï¼šcd
+æŸ¥çœ‹å½“å‰è·¯å¾„ï¼šPWD
+æŸ¥çœ‹å½“å‰æ–‡ä»¶å¤¹ä¸‹çš„æ–‡ä»¶ï¼šls + ll
+åˆ›å»ºæ–‡ä»¶å¤¹ä¸Šï¼šmkdir
+ç§»åŠ¨æ–‡ä»¶ï¼šMV
+å¤åˆ¶æ–‡ä»¶ï¼šCP
+åˆ é™¤æ–‡ä»¶åŠæ–‡ä»¶å¤¹ï¼šrm -rfï¼ˆç¦æ­¢ä½¿ç”¨ï¼‰
+ç¼–è¾‘æ–‡ä»¶ï¼šVIM
+æŸ¥çœ‹å†å²å‘½ä»¤ï¼šå†å²
+VUEé¡¹ç›®éƒ¨ç½²åˆ°æœåŠ¡å™¨ä¸Šï¼ŒæœåŠ¡å™¨ä½¿ç”¨nginxçš„
+ç®€å•ç‰ˆæ¨¡æ¿ä¸ºï¼šwebpack-simple
+æ³¨é‡Šæ‰çš„.gitignoreé‡Œçš„DISTï¼Œæ—¢åœ¨DISTå‰é¢åŠ ä¸ªï¼ƒå·
+ä¿®æ”¹çš„index.htmlé‡Œdistbuild.jsä¸ºç›¸å¯¹è·¯å¾„ï¼Œåœ¨ DISTå‰é¢åŠ ä¸ªã€‚
+ä¿®æ”¹webpack.config.jsé‡Œçš„publickPathä¸ºç›¸å¯¹è·¯å¾„ï¼Œåœ¨ DISTå‰é¢åŠ ä¸ªã€‚
+å¤æ‚ç‰ˆæ¨¡æ¿ä¸ºï¼šwebpack
+æ³¨é‡Šæ‰çš„.gitignoreé‡Œçš„DISTï¼Œæ—¢åœ¨DISTå‰é¢åŠ ä¸ªï¼ƒå·
+ä¿®æ”¹é…ç½® index.jsé‡Œçš„æ„å»º assetsPublicPathä¸ºç›¸å¯¹è·¯å¾„ï¼Œåœ¨å‰é¢åŠ ä¸ªã€‚
+é‡åˆ°404ï¼Œä¿®æ”¹æ–‡ä»¶å¤¹çš„æƒé™
 chmod 666 -R dir
-Æô¶¯Ò»Ğ©ÏßÉÏ·şÎñ
-¶ÌĞÅÑéÖ¤Âë·şÎñ
-·şÎñÆ÷ÅäÖÃ
-nginxµÄĞéÄâÓòÃûÅäÖÃ
+å¯åŠ¨ä¸€äº›çº¿ä¸ŠæœåŠ¡
+çŸ­ä¿¡éªŒè¯ç æœåŠ¡
+æœåŠ¡å™¨é…ç½®
+nginxçš„è™šæ‹ŸåŸŸåé…ç½®
 vim  etc  nginx  sites-available  default
-ÅäÖÃÍÆ¹³×Ó£¬×Ô¶¯»¯²¿Êğ´úÂë
-¹³×Ó£ºhomeubuntuserverwebhooks1602Echenmanjiewebhooks.js
-²¿Êğ´úÂë£ºhomeubuntudeploy1602Echenmanjiedeploy.sh
-ÅäÖÃ½Ì³Ì£ºhttps£ºwww.jianshu.compe4cacd775e5b
-¸ü¸ÄµÄbash²»ÄÜÔËĞĞ£º
-±¨´í bin  bash ^ M£º´íÎóµÄ½âÊÍÆ÷£ºÃ»ÓĞÕâÑùµÄÎÄ¼ş»òÄ¿Â¼
-¸ü¸ÄÎÄ¼ş¸ñÊ½£ºhttps£ºwww.cnblogs.comzyb-ppp6429448.html
-ÅäÖÃÓÊ¼ş·şÎñÆ÷£¬ÔÚÍÆ¹³×ÓÀï´¥·¢£¬×Ô¶¯Í¨ÖªÊÕ¼şÈË
-ÏßÉÏ¹«ÓÃ½Ó¿Ú
-ÉÏ´«ÎÄ¼ş http123.206.55.5011000upload
-Ö§³ÖÎÄ¼şÉÏ´«,ÓÃpost·½Ê½Ìá½»formData¶ÔÏó,¼üÎªÎÄ¼şÃû,ÖµÎªÎÄ¼ş
+é…ç½®æ¨é’©å­ï¼Œè‡ªåŠ¨åŒ–éƒ¨ç½²ä»£ç 
+é’©å­ï¼šhomeubuntuserverwebhooks1602Echenmanjiewebhooks.js
+éƒ¨ç½²ä»£ç ï¼šhomeubuntudeploy1602Echenmanjiedeploy.sh
+é…ç½®æ•™ç¨‹ï¼šhttpsï¼šwww.jianshu.compe4cacd775e5b
+æ›´æ”¹çš„bashä¸èƒ½è¿è¡Œï¼š
+æŠ¥é”™ bin  bash ^ Mï¼šé”™è¯¯çš„è§£é‡Šå™¨ï¼šæ²¡æœ‰è¿™æ ·çš„æ–‡ä»¶æˆ–ç›®å½•
+æ›´æ”¹æ–‡ä»¶æ ¼å¼ï¼šhttpsï¼šwww.cnblogs.comzyb-ppp6429448.html
+é…ç½®é‚®ä»¶æœåŠ¡å™¨ï¼Œåœ¨æ¨é’©å­é‡Œè§¦å‘ï¼Œè‡ªåŠ¨é€šçŸ¥æ”¶ä»¶äºº
+çº¿ä¸Šå…¬ç”¨æ¥å£
+ä¸Šä¼ æ–‡ä»¶ http123.206.55.5011000upload
+æ”¯æŒæ–‡ä»¶ä¸Šä¼ ,ç”¨postæ–¹å¼æäº¤formDataå¯¹è±¡,é”®ä¸ºæ–‡ä»¶å,å€¼ä¸ºæ–‡ä»¶
 eg
 var ele = document.querySelector('input');
 ele.onchange = function(e){
     console.log('e...', e);
     let files = e.target.files;
-     ´´½¨Ò»¸öformData
+     åˆ›å»ºä¸€ä¸ªformData
     let form = new FormData();
     for (let i=0,len=files.length; ilen;i++){
         console.log(files[i].name);
@@ -71,4 +71,4 @@ ele.onchange = function(e){
     })
 }
 
-´úÀíÇëÇó http123.206.55.5011000apiurl=ĞèÒª´úÀíµÄµØÖ·
+ä»£ç†è¯·æ±‚ http123.206.55.5011000apiurl=éœ€è¦ä»£ç†çš„åœ°å€
